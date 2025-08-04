@@ -1,0 +1,6 @@
+So I made this layout using only html and css.
+I used flexbox to center the whole thing in the screen, like both vertically and horizantally.
+Then I added a box in middle to show the balance, which is like 0.
+Under that I put two buttons — one is for deposit and one is for withdraw.
+I used flex column to stack them and added some gap so they dont stick together. 
+Gave green color to deposit and red to withdraw just to make it clear which is what.n to stack them and added some gap so they dont stick together. Gave green color to deposit and red to withdraw just to make it clear which is what
