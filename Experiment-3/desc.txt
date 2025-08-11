@@ -1,0 +1,26 @@
+ADMIN DASHBOARD DARK THEME TOGGLE
+
+1. ELEMENT: Dark Theme Toggle
+Requirement: Switch between light (default) and dark theme using a hidden checkbox + CSS.
+Implementation:
+Hidden <input type="checkbox" id="theme-toggle"> controls theme state.
+<label for="theme-toggle"> acts as the clickable toggle button.
+CSS :checked selectors change colors.
+VALID ACTIONS: Click label → theme changes instantly; click again → revert.
+INVALID ACTIONS: Removing for attribute or breaking sibling order → toggle won’t work.
+
+2. LIGHT THEME (Default)
+Green header/footer, white content background, dark text.
+Valid: Clear contrast, proper colors.
+Invalid: Missing green header/footer or incorrect text color.
+
+3. DARK THEME (Checked)
+Dark background (#222), light text (#eee), header/footer dark gray (#333).
+Valid: Readable text on dark backgrounds.
+Invalid: Text too dark or background not switching.
+
+4. CSS Structure Overview
+body: Grid layout (grid-template-columns: auto auto; height: 100vh).
+header/footer: Spans both columns, consistent styling.
+nav/main: Bordered sections for menu and content.
+#themebutton: Styled label acting as button.
