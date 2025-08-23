@@ -1,0 +1,2 @@
+We developed a Live Character Counter using HTML, CSS, and JavaScript. 
+The tool features a text area where users can type, and the character count updates in real time using a simple JavaScript oninput event handler for instant feedback.
