@@ -1,0 +1,10 @@
+We built a Dynamic Product Filter web page where users can filter products by category in real time using a dropdown menu.
+
+What we made:
+A product list that updates instantly based on the selected category (e.g., Clothing, Electronics, Books) without reloading the page.
+
+How we made it:
+HTML was used to structure the page with a dropdown, labels, and product list items.
+CSS styled the layout with a clean and simple look similar to the expected output.
+JavaScript (DOM Manipulation) handled the filtering logic by listening to dropdown changes and dynamically showing/hiding 
+products based on the selected category.
