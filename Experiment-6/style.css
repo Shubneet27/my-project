@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+svg {
+    background: #f9f9f9;
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+}

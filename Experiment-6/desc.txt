@@ -1,0 +1,12 @@
+I created an Interactive SVG Drawing Tool using HTML, CSS, and JavaScript.
+
+HTML: Used <svg> to create the drawing area.
+
+CSS: Styled the canvas with borders, background, and layout.
+
+JavaScript:
+Used mousedown to start drawing.
+Used mousemove to update the shape path dynamically.
+Used mouseup to stop drawing.
+Created SVG <path> elements using document.createElementNS for real-time drawing.
+Managed path coordinates with getAttribute and setAttribute.
