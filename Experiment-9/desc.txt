@@ -1,0 +1,36 @@
+Person Class Hierarchy Demo
+
+📌 Overview
+This project demonstrates the concept of class inheritance in JavaScript using
+a simple Person → Student/Teacher hierarchy. It shows how parent classes can be
+extended by child classes, and how method overriding works.
+
+🏗 Structure
+1. HTML
+   - Basic webpage with a heading and <pre> element to display results.
+
+2. JavaScript
+   - Person (Base Class)
+       Properties: name, age
+       Method: displayInfo() → returns name and age.
+
+   - Student (Subclass of Person)
+       Additional property: course
+       Overrides displayInfo() to include course.
+
+   - Teacher (Subclass of Person)
+       Additional property: department
+       Overrides displayInfo() to include department.
+
+3. Objects Created
+   - student1 → "Shubneet", 19, "Computer Science AIML"
+   - teacher1 → "Ms World", 24, "Computer Science AIML"
+
+4. Output
+   - Both Student and Teacher details are displayed inside the <pre> tag.
+
+🎯 Key Learning Points
+- Inheritance: `extends` keyword lets subclasses reuse parent methods.
+- super(): Calls parent constructor or method.
+- Method Overriding: Child classes change behavior of parent’s method.
+- Template Literals: Backticks ` and ${} allow variable interpolation.
