@@ -1,0 +1,7 @@
+React app to display a list of sports team players.
+Users can search players by their role using a search box.
+SearchBox component handles user input.
+PlayerList component displays filtered players.
+PlayerItem component shows individual player details.
+Uses useState to manage search text and dynamically filter the list.
+Updates the displayed list in real-time as the user types.
